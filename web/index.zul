@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window apply="mz.ena.controlador.ClienteCTL">
+        <grid>
+            <columns>
+                <column label=""/>
+                <column label=""/>
+            </columns>
+            <rows>
+                <row>
+                    <cell align="right">Usuario</cell>
+                    <cell align="left">
+                        <textbox id=""/>
+                    </cell>	
+                </row>
+                <row>
+                    <cell align="right">Senha</cell>
+                    <cell align="left">
+                        <textbox type="password" id=""/>
+                    </cell>	
+                </row>
+                <row>
+                    <cell align="center">
+                        <button label="Login" href="cadFuncionario.zul"/>
+                        <button label="Cancelar" id="regitar"/>
+                    </cell>
+                </row>
+            </rows>
+        </grid>
+      
+       
+    </window>
+</zk>

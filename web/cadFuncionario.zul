@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window title="Cadastrar Usuario">
+        <vbox>
+            <grid>
+                <columns>
+                    <column label=""/>
+                    <column label=""/>
+                </columns>
+                <rows>
+                    <row>
+                        <cell align="right">Numero</cell>
+                        <cell>
+                            <textbox id="f_numero" constraint="no empty" width="60%"/>
+                        </cell>	
+                    </row>
+                    <row>
+                        <cell align="right">Nome Completo</cell>
+                        <cell>
+                            <textbox id="f_nomeC" constraint="no empty" width="60%"/>
+                        </cell>	
+                    </row>
+                    <row>
+                        <cell align="right">Usuario</cell>
+                        <cell>
+                            <textbox id="f_usuario" constraint="no empty" width="60%"/>
+                        </cell>	
+                    </row>
+                    <row>
+                        <cell align="right">Senha</cell>
+                        <cell>
+                            <textbox id="f_senha" type="password" constraint="no empty" width="60%"/>
+                        </cell>	
+                    </row>
+                    <row>
+                        <cell align="right">Confirmar Senha</cell>
+                        <cell>
+                            <textbox id="f_confsenha" type="password" constraint="no empty" width="60%"/>
+                        </cell>	
+                    </row>
+                    <row>
+                        <cell align="center">
+                            <button label="Confirmar" />
+                            <button label="Limpar" />
+                        </cell>
+                    </row>
+                </rows>
+            </grid> 
+        </vbox>
+    </window> 
+</zk>
